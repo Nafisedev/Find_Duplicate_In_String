@@ -1,8 +1,9 @@
 import pandas as pd
 
 
-dataset = pd.read_csv('Add your path')
+dataset = pd.read_csv('C:/Users/Zahra Mirzaei/Desktop/project-1/dataset.csv')
 dataset.head()
+type(dataset)
 
 for index, row in dataset.iterrows():
     current_row = pd.Series(
