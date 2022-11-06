@@ -1,7 +1,6 @@
 import pandas as pd
 
-dataset = pd.read_excel(
-    'C:/Users/Zahra Mirzaei/Desktop/project-1/test_data.xlsx')
+dataset = pd.read_excel('Add your dataset path')
 dataset.head()
 
 dataset['Name'] = dataset['Name'].str.lower()
